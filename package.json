@@ -1,0 +1,16 @@
+{
+  "name": "time-converter",
+  "version": "1.0.0",
+  "description": "Tool for converting seconds into days, hours, minutes and seconds",
+  "main": "lib/time-converter.js",
+  "scripts": {
+    "test": "jasmine \"lib/**/*.spec.js\"",
+    "test:watch": "nodemon --exec 'jasmine \"lib/**/*.spec.js\"'"
+  },
+  "author": "Marcos Rodriguez Ordieres",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.3.1",
+    "nodemon": "^1.18.10"
+  }
+}
