@@ -28,7 +28,7 @@ npm install --save time-converter
 const timeConverter = require('time-converter');
 timeConverter(3600); // Output: '1:0:0'
 timeConverter(60); // Output: '0:1:0'
-timeConverter(60); // Output: '0:1:0'
+timeConverter(1); // Output: '0:0:1'
 // Invalid cases
 timeConverter(-2000);   // Output: NaN (Not a number)
 timeConverter(true); // Output: NaN (Not a number)
